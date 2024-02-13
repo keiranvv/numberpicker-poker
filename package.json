@@ -1,0 +1,21 @@
+{
+	"name": "numberpicker-game",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "concurrently --raw \"tsc --watch --preserveWatchOutput\" \"wds --watch\""
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@rollup/plugin-typescript": "^11.1.6",
+		"@types/node": "^20.11.16",
+		"@web/dev-server": "^0.4.2",
+		"concurrently": "^8.2.2",
+		"esbuild": "0.20.0",
+		"rollup": "^4.9.6",
+		"tslib": "^2.6.2",
+		"typescript": "^5.3.3"
+	}
+}
